@@ -1,106 +1,74 @@
-##Equal Opportunity - React + Vite + Tailwind
-This project is a modern and responsive landing page originally built using Next.js, now converted to a React + Vite + Tailwind CSS stack. It serves as a front-end for the "Equal Opportunity" initiative and is designed with accessibility, performance, and responsiveness in mind.
+ Equal Opportunity Landing Page
+A modern and responsive landing page built with React, Vite, and Tailwind CSS.
 
-🚀 Features
+📌 Features
+⚡️ Fast development with Vite
 
-Built with React + Vite
+🎨 Styled using Tailwind CSS
 
-Tailwind CSS for fast and responsive UI styling
+🧩 Modular and reusable components
 
-Modular component structure
+📱 Fully responsive design
 
-Mobile-first responsive design
+🌐 Ready for deployment (Netlify, Vercel, etc.)
 
-Clean layout with semantic HTML
+🛠️ Tech Stack
+Framework: React (with Vite)
 
-📦 Technologies Used
+Styling: Tailwind CSS
 
-React
+Tooling: PostCSS, ESLint, Prettier (optional)
 
-Vite
-
-Tailwind CSS
-
-PostCSS
-
-ESLint + Prettier (optional)
-
-🛠️ Installation
-
-Clone the repo and install dependencies:
+📁 Project Structure
+bash
+Copy
+Edit
+equal-opportunity-landing/
+├── public/
+│   └── ...
+├── src/
+│   ├── assets/         # Static images, logos, etc.
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Page-level components (e.g., Home, About)
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js  # Tailwind CSS configuration
+├── postcss.config.js   # PostCSS config
+├── index.html
+└── package.json
+🚀 Getting Started
+Clone the repository
 
 bash
 Copy
 Edit
-git clone https://github.com/your-username/equal-opportunity-vite.git
-cd equal-opportunity-vite
+git clone https://github.com/your-username/d-connect
+cd equal-opportunity-landing
+Install dependencies
+
+bash
+Copy
+Edit
 npm install
-Start the development server:
+Start the development server
 
 bash
 Copy
 Edit
 npm run dev
-Build for production:
+Build for production
 
 bash
 Copy
 Edit
 npm run build
-Preview the build:
+Preview production build
 
 bash
 Copy
 Edit
 npm run preview
-📁 Project Structure
-
-.
-├── public/ # Static assets
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page components (e.g., Home.jsx)
-│ ├── App.jsx # Root app layout
-│ ├── main.jsx # Vite entry point
-│ └── index.css # Tailwind base styles
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
-
-🧪 Linting & Formatting
-
-To use ESLint and Prettier (if configured), run:
-
-bash
-Copy
-Edit
-npm run lint
-npm run format
-🎨 Customization
-
-You can customize:
-
-Tailwind theme → tailwind.config.js
-
-Global styles → src/index.css
-
-Page content → src/pages/
-
-📸 Screenshots
-
-Include screenshots of the landing page layout if needed.
-
-🌐 Deployment
-
-You can deploy this site easily using platforms like:
-
-Vercel
-
-Netlify
-
-GitHub Pages (with vite.config adjustments)
-
+📷 Screenshots
+<!-- Optionally add screenshots here --> <!-- ![Screenshot](./src/assets/screenshot.png) -->
 📄 License
-
-MIT License
+This project is open source and available under the MIT License.
